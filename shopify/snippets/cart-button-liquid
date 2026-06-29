@@ -1,0 +1,18 @@
+<div id="CartDrawer" class="cart-drawer">
+  <div class="cart-drawer__overlay"></div>
+
+  <div class="cart-drawer__content">
+    <button class="close-cart">×</button>
+
+    <h2>Your Cart</h2>
+
+    <div id="CartDrawerItems"></div>
+
+    <div class="shipping-progress">
+      <p id="shipping-message"></p>
+      <progress id="shipping-progress-bar" max="100" value="0"></progress>
+    </div>
+
+    <div id="cart-upsell"></div>
+  </div>
+</div>

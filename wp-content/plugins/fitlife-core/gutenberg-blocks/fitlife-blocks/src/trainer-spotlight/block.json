@@ -1,0 +1,15 @@
+{
+    "apiVersion": 2,
+    "name": "fitlife/trainer-spotlight",
+    "title": "Trainer Spotlight",
+    "category": "widgets",
+    "icon": "businessperson",
+    "description": "Display a selected trainer.",
+    "attributes": {
+        "trainerId": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "editorScript": "file:./index.js"
+}

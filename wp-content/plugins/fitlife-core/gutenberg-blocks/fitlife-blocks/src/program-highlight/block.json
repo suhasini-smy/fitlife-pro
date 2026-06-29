@@ -1,0 +1,27 @@
+{
+    "apiVersion": 2,
+    "name": "fitlife/program-highlight",
+    "title": "Program Highlight",
+    "category": "widgets",
+    "icon": "awards",
+    "description": "Highlight a fitness program.",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "buttonText": {
+            "type": "string"
+        },
+        "buttonUrl": {
+            "type": "string"
+        },
+        "difficulty": {
+            "type": "string",
+            "default": "Beginner"
+        }
+    }
+}
