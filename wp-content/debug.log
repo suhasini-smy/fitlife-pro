@@ -1,1 +1,31 @@
 [28-Jun-2026 16:58:11 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xamp\htdocs\fitlifecore\wp-admin\includes\class-wp-filesystem-direct.php on line 66
+[29-Jun-2026 05:23:54 UTC] PHP Warning:  require_once(C:\xampp\htdocs\fitlife-pro\wp-content\plugins\woocommerce/src/Api/Infrastructure/Schema/aliases.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-version-loader.php on line 109
+[29-Jun-2026 05:23:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\fitlife-pro\wp-content\plugins\woocommerce/src/Api/Infrastructure/Schema/aliases.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-version-loader.php:109
+Stack trace:
+#0 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ15_9_1\al5_0_19\Version_Loader->load_filemap()
+#1 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-autoloader.php(80): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ15_9_1\al5_0_19\Autoloader_Handler->activate_autoloader(Array)
+#2 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\autoload_packages.php(13): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ15_9_1\al5_0_19\Autoloader::init()
+#3 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\jetpack.php(150): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\fitlife-pro\wp-settings.php(589): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\fitlife-pro\wp-config.php(104): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\fitlife-pro\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\fitlife-pro\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-version-loader.php on line 109
+[29-Jun-2026 05:24:23 UTC] PHP Warning:  require_once(C:\xampp\htdocs\fitlife-pro\wp-content\plugins\woocommerce/src/Api/Infrastructure/Schema/aliases.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-version-loader.php on line 109
+[29-Jun-2026 05:24:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\fitlife-pro\wp-content\plugins\woocommerce/src/Api/Infrastructure/Schema/aliases.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-version-loader.php:109
+Stack trace:
+#0 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ15_9_1\al5_0_19\Version_Loader->load_filemap()
+#1 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-autoloader.php(80): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ15_9_1\al5_0_19\Autoloader_Handler->activate_autoloader(Array)
+#2 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\autoload_packages.php(13): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3c_jetpackⓥ15_9_1\al5_0_19\Autoloader::init()
+#3 C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\jetpack.php(150): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\fitlife-pro\wp-settings.php(589): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\fitlife-pro\wp-config.php(104): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\fitlife-pro\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\fitlife-pro\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\fitlife-pro\wp-content\plugins\jetpack\vendor\jetpack-autoloader\class-version-loader.php on line 109
+[29-Jun-2026 06:10:22 UTC] Automatic updates starting...
+[29-Jun-2026 06:10:22 UTC]   Automatic plugin updates starting...
+[29-Jun-2026 06:10:22 UTC]   Automatic plugin updates complete.
+[29-Jun-2026 06:10:22 UTC] Automatic updates complete.
